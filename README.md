@@ -19,16 +19,20 @@ script/: As with diagnosis/, this should not be a directory if it's meant to rep
 git clone https://github.com/ae362/Diabetes-Diagnosis-System.git
 ```
 2.Navigate to the project directory:
+```
 cd Diabetes-Diagnosis-System
-
+```
 Install the necessary dependencies:
+```
 pip install -r requirements.txt
-
+```
 To execute the ANN model training and evaluation:
+```
 python src/script.py
-
+```
 To run the Prolog-based expert system:
+```
 swipl -s src/diagnosis.pl
-
+```
 
 
